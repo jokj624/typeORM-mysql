@@ -1,0 +1,37 @@
+{
+   "name": "typeorm-mysql",
+   "version": "1.0.0",
+   "description": "node.js 에서 typeORM과 MySQL 을 data mapper 패턴으로 사용하는 연습",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jokj624/typeORM-mysql.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/jokj624/typeORM-mysql/issues"
+   },
+   "homepage": "https://github.com/jokj624/typeORM-mysql#readme",
+   "devDependencies": {
+      "@types/cookie-parser": "^1.4.2",
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "dotenv": "^8.6.0",
+      "express": "^4.17.2",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.2.41"
+   }
+}
